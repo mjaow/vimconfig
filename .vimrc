@@ -10,7 +10,7 @@ nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 nmap <F4> :YcmDiags<CR>
-imap <F6> <C-x><C-o>
+"imap <F6> <C-x><C-o>
 "nmap gr <C-t>
 
 " set the runtime path to include Vundle and initialize
@@ -19,8 +19,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'fatih/vim-go'
-Bundle 'Blackrush/vim-gocode'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+"Bundle 'Blackrush/vim-gocode'
+"Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'Valloric/YouCompleteMe'
 "Plugin 'tpope/vim-fugitive'
 "Plugin 'git://git.wincent.com/command-t.git'
